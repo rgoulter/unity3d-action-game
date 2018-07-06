@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b8a14d5600101f14e87ccda8d6523b8d
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: group
     100002: //RootNode
@@ -105,6 +105,24 @@ ModelImporter:
     100198: transform39
     100200: transform40
     100202: transform41
+    100204: MechChasis
+    100206: MechCockpit
+    100208: MechGunBarrel0
+    100210: MechGunBarrel1
+    100212: MechGunBarrel2
+    100214: MechGunBarrel3
+    100216: MechGunBarrel4
+    100218: MechGunBarrel5
+    100220: MechGunBase
+    100222: MechGunCockpitAttachment
+    100224: MechLegLeft
+    100226: MechLegRight
+    100228: MechMissileLauncherLeft
+    100230: MechMissileLauncherLeft1
+    100232: MechMissileLauncherLeft2
+    100234: MechMissileLauncherRight
+    100236: MechMissileLauncherRight1
+    100238: MechMissileLauncherRight2
     400000: group
     400002: //RootNode
     400004: pasted__pCylinder1
@@ -207,6 +225,24 @@ ModelImporter:
     400198: transform39
     400200: transform40
     400202: transform41
+    400204: MechChasis
+    400206: MechCockpit
+    400208: MechGunBarrel0
+    400210: MechGunBarrel1
+    400212: MechGunBarrel2
+    400214: MechGunBarrel3
+    400216: MechGunBarrel4
+    400218: MechGunBarrel5
+    400220: MechGunBase
+    400222: MechGunCockpitAttachment
+    400224: MechLegLeft
+    400226: MechLegRight
+    400228: MechMissileLauncherLeft
+    400230: MechMissileLauncherLeft1
+    400232: MechMissileLauncherLeft2
+    400234: MechMissileLauncherRight
+    400236: MechMissileLauncherRight1
+    400238: MechMissileLauncherRight2
     2300000: pCube1
     2300002: pCube2
     2300004: pCube3
@@ -250,6 +286,24 @@ ModelImporter:
     2300080: polySurface42
     2300082: polySurface43
     2300084: polySurface44
+    2300086: MechChasis
+    2300088: MechCockpit
+    2300090: MechGunBarrel0
+    2300092: MechGunBarrel1
+    2300094: MechGunBarrel2
+    2300096: MechGunBarrel3
+    2300098: MechGunBarrel4
+    2300100: MechGunBarrel5
+    2300102: MechGunBase
+    2300104: MechGunCockpitAttachment
+    2300106: MechLegLeft
+    2300108: MechLegRight
+    2300110: MechMissileLauncherLeft
+    2300112: MechMissileLauncherLeft1
+    2300114: MechMissileLauncherLeft2
+    2300116: MechMissileLauncherRight
+    2300118: MechMissileLauncherRight1
+    2300120: MechMissileLauncherRight2
     3300000: pCube1
     3300002: pCube2
     3300004: pCube3
@@ -293,6 +347,24 @@ ModelImporter:
     3300080: polySurface42
     3300082: polySurface43
     3300084: polySurface44
+    3300086: MechChasis
+    3300088: MechCockpit
+    3300090: MechGunBarrel0
+    3300092: MechGunBarrel1
+    3300094: MechGunBarrel2
+    3300096: MechGunBarrel3
+    3300098: MechGunBarrel4
+    3300100: MechGunBarrel5
+    3300102: MechGunBase
+    3300104: MechGunCockpitAttachment
+    3300106: MechLegLeft
+    3300108: MechLegRight
+    3300110: MechMissileLauncherLeft
+    3300112: MechMissileLauncherLeft1
+    3300114: MechMissileLauncherLeft2
+    3300116: MechMissileLauncherRight
+    3300118: MechMissileLauncherRight1
+    3300120: MechMissileLauncherRight2
     4300000: pCube1
     4300002: pCube2
     4300004: pCube3
@@ -336,6 +408,24 @@ ModelImporter:
     4300080: polySurface42
     4300082: polySurface43
     4300084: polySurface44
+    4300086: MechLegLeft
+    4300088: MechLegRight
+    4300090: MechMissileLauncherRight1
+    4300092: MechMissileLauncherRight
+    4300094: MechMissileLauncherLeft2
+    4300096: MechMissileLauncherLeft1
+    4300098: MechMissileLauncherLeft
+    4300100: MechMissileLauncherRight2
+    4300102: MechGunCockpitAttachment
+    4300104: MechGunBarrel5
+    4300106: MechGunBarrel1
+    4300108: MechGunBarrel2
+    4300110: MechGunBarrel0
+    4300112: MechGunBarrel3
+    4300114: MechGunBase
+    4300116: MechGunBarrel4
+    4300118: MechCockpit
+    4300120: MechChasis
     6400000: pCube1
     6400002: pCube2
     6400004: pCube3
@@ -379,19 +469,62 @@ ModelImporter:
     6400080: polySurface42
     6400082: polySurface43
     6400084: polySurface44
+    6400086: MechChasis
+    6400088: MechCockpit
+    6400090: MechGunBarrel0
+    6400092: MechGunBarrel1
+    6400094: MechGunBarrel2
+    6400096: MechGunBarrel3
+    6400098: MechGunBarrel4
+    6400100: MechGunBarrel5
+    6400102: MechGunBase
+    6400104: MechGunCockpitAttachment
+    6400106: MechLegLeft
+    6400108: MechLegRight
+    6400110: MechMissileLauncherLeft
+    6400112: MechMissileLauncherLeft1
+    6400114: MechMissileLauncherLeft2
+    6400116: MechMissileLauncherRight
+    6400118: MechMissileLauncherRight1
+    6400120: MechMissileLauncherRight2
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MechBodyMaterial
+    second: {fileID: 2100000, guid: 7cdcd402c13acfb45941d05566072821, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MechLegMaterial
+    second: {fileID: 2100000, guid: f9e5fa78bed13724da3547d37583011a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -399,34 +532,50 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
-    handles: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  additionalBone: 1
   animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
