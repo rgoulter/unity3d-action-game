@@ -29,7 +29,7 @@ function Update () {
             // if (this.tag == "Tank") {
             //     var explosion : GameObject = Instantiate(Resources.Load("Explosion"), transform.position, transform.rotation);
             // }
-            var explosion : GameObject = Instantiate(Resources.Load("Explosion"), transform.position, transform.rotation) as GameObject;
+            // var explosion : GameObject = Instantiate(Resources.Load("Explosion"), transform.position, transform.rotation) as GameObject;
             Destroy(gameObject);
         }
     }
