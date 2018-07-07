@@ -14,5 +14,5 @@ function OnMouseExit () {
 
 function OnMouseUp () {
     //load the game
-    Application.LoadLevel(1);
+    SceneManagement.SceneManager.LoadScene("FutureCop");
 }
