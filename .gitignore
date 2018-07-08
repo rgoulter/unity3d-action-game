@@ -1,6 +1,9 @@
 .hg
 .vs
 *.orig
+*pkg
+*log
+results.xml
 
 Assets/InitTestScene*
 

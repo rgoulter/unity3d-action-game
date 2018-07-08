@@ -1,0 +1,17 @@
+language: objective-c
+os: osx
+install:
+- "./Scripts/install.sh"
+script:
+- "./Scripts/build.sh"
+- "./Scripts/test.sh"
+deploy:
+  provider: releases
+  api_key:
+    secure: a+kMZRiEAEy0v8EqGsC65N2QZAKwW11j7GlrRnLALKdIQU2VJifvBLHFmcFEDN/jP+e2q4Mm8ggmL3dCM9a8LuxfgDER6rcgG9HyESNPNjuaa81jOJL6GZmYNR4lQ1WcUQMODK4tbxBKFGUXuz3SshYd04pMOqR5fsjUydT1aTUdDrFuUCTVpl5nINsMAUnOYUfxbGn+ib/lxRSSd0NciVrIuYjMLciuy7ypjKnqyVwa5zdNWIoXBlsIRM/h1XS+0AYPsK0GHJmBNko90IDDzg6qxybVUGkLfAYDtLa3N16s1T9GwCVt5dOSD4NHJHxrG4AOKIo4OvyLphWTpem0K2ZwdSkNjXqRocQU3GWLGjfyZkNPhChUZMwFSzDDlX7bEuhEalGBvM2CmrSEQ0LRL5yfkf9z8ub3ldv8w/FxY4jSTwDvE+tIbnhq8xz0ZKFbI/OfomOdkox6z8ZbpCEoRy17qX/2IR0EnsbVpN8tJQUgCNiP9QS+jj8e1WpwIfLjgBfYSC1TeZBrY7wZwjAa72CVKefDrPm7oVPZb38PGEG2tmJKFw/ma5VENDlsLig2AEvzpmY+jyQXjLubk/PNY9sGD1sYHmUSOCR6eQJiWwK+oG/0rv93wgSvxYwNeHGzXVD2RLEXczx0QuhCtG8R01A6DmFxF9yA2B15ff7dHRE=
+  file:
+      - Build/rgoulter-unity-action-game-linux.zip
+      - Build/rgoulter-unity-action-game-mac.zip
+      - Build/rgoulter-unity-action-game-windows.zip
+  on:
+    repo: rgoulter/unity3d-action-game
