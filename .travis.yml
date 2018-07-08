@@ -1,5 +1,6 @@
 language: objective-c
-os: osx
+# os: osx
+osx_image: xcode9.4
 install:
 - "./Scripts/install.sh"
 script:
