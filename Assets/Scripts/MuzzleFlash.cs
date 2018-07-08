@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MuzzleFlash : MonoBehaviour {
-    Texture2D muzFlashTex1;
-    Texture2D muzFlashTex2;
+    public Texture2D muzFlashTex1;
+    public Texture2D muzFlashTex2;
 
     private int current = 0;
 

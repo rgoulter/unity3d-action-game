@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletShooter : MonoBehaviour {
-    float shootDelay = 3.0f;
-    float shootTimer = 0;
-    GameObject spwnObj;
-    string shootAxis = "Fire1";
-    PlayerTargetter targetter;
+    public float shootDelay = 3.0f;
+    public float shootTimer = 0;
+    public GameObject spwnObj;
+    public string shootAxis = "Fire1";
+    public PlayerTargetter targetter;
 
     public int ammoCount = 1000;
 
-    int currentSpawnChild = 0;
+    public int currentSpawnChild = 0;
 
     void Start () {
         // Targetting laser will belong to a 'sibling' object

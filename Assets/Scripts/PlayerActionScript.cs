@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerActionScript : MonoBehaviour {
-    string actionAxis = "Jump";
-    float actionFrequency = 0.5f;
+    public string actionAxis = "Jump";
+    public float actionFrequency = 0.5f;
     private float t = 0.0f;
 
     public string status;

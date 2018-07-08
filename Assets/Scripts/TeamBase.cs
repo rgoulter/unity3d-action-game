@@ -5,13 +5,13 @@ using UnityEngine;
 public class TeamBase : MonoBehaviour {
     public Transform mechSpawnPoint;
     public Transform tankSpawnPoint;
-    Transform jetSpawnPoint;
+    public Transform jetSpawnPoint;
 
     public int team;
 
     // TODO: Until I find a better way to do this...
-    Texture2D tankRedMMIcon;
-    Texture2D tankBlueMMIcon;
+    public Texture2D tankRedMMIcon;
+    public Texture2D tankBlueMMIcon;
 
     public void SpawnBotTank () {
         Debug.Log("Spawn Tank");

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerTankForceMovement : MonoBehaviour {
-    float speed = 6.0f;
-    float rotateSpeed = Mathf.PI;
+    public float speed = 6.0f;
+    public float rotateSpeed = Mathf.PI;
 
-    string forwardAxis = "Vertical";
-    string turnAxis = "Horizontal";
-    string strafeAxis = "Strafe";
+    public string forwardAxis = "Vertical";
+    public string turnAxis = "Horizontal";
+    public string strafeAxis = "Strafe";
 
     void Start () {
         GetComponent<TeamPlayer>().pointsValue = PlayerScores.killMechBonus;

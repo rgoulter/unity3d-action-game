@@ -2,25 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(TeamPlayer))]
+// [RequireComponent(typeof(TeamPlayer))]
 public class TowerLive : MonoBehaviour {
     // for shooting
-    float shootDelay = 3.0f;
-    float shootTimer = 0.0f;
-    GameObject projectileObj;
-    Transform shooterTransform;
-    int currentSpawnChild = 0;
+    public float shootDelay = 3.0f;
+    public float shootTimer = 0.0f;
+    public GameObject projectileObj;
+    public Transform shooterTransform;
+    public int currentSpawnChild = 0;
 
     // for aiming
-    GameObject currentTarget;
-    GameObject turret;
+    public GameObject currentTarget;
+    public GameObject turret;
 
-    float rotateSpeedPerSecond = Mathf.PI / 2;
-    float maxRange = 8.0f;
+    public float rotateSpeedPerSecond = Mathf.PI / 2;
+    public float maxRange = 8.0f;
 
     // Until I find a better way to do this
-    Texture2D towerRedMMIcon;
-    Texture2D towerBlueMMIcon;
+    public Texture2D towerRedMMIcon;
+    public Texture2D towerBlueMMIcon;
 
     private bool isQuitting = false; // Needed for cheap hack.
 

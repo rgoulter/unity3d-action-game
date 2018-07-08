@@ -6,24 +6,24 @@ using UnityEngine;
 [RequireComponent(typeof(AIFollow))]
 public class BotsAI : MonoBehaviour {
     // for Pathfinding
-    AIFollow aiFollow;
-    float recuperateSpeed = Mathf.PI / 10;
+    public AIFollow aiFollow;
+    public float recuperateSpeed = Mathf.PI / 10;
 
     // for shooting
-    float shootDelay = 3.0f;
-    float shootTimer = 0;
-    GameObject projectileObj;
-    Transform shooterTransform;
-    int currentSpawnChild = 0;
-    string tankState = "Spawn_Bot";
+    public float shootDelay = 3.0f;
+    public float shootTimer = 0;
+    public GameObject projectileObj;
+    public Transform shooterTransform;
+    public int currentSpawnChild = 0;
+    public string tankState = "Spawn_Bot";
 
     // for aiming
-    GameObject currentTarget;
-    GameObject turret;
+    public GameObject currentTarget;
+    public GameObject turret;
 
-    float rotateSpeedPerSecond = Mathf.PI / 2;
-    float findEnemyRange = 100;
-    float engageRange = 20;
+    public float rotateSpeedPerSecond = Mathf.PI / 2;
+    public float findEnemyRange = 100;
+    public float engageRange = 20;
 
     void Start () {
         // Set default values here

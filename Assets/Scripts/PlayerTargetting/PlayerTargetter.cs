@@ -8,7 +8,7 @@ public class PlayerTargetter : MonoBehaviour {
 
     public GameObject currentTarget;
 
-    float maxRange = 8;
+    public float maxRange = 8.0f;
 
     void Start () {
         currentTarget = null;

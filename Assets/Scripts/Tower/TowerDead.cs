@@ -6,7 +6,7 @@ public class TowerDead : MonoBehaviour {
     /*
       Time to wait before spawning a new tower int this position.
       */
-    float spawnDelay = 5.0f;
+    public float spawnDelay = 5.0f;
 
     void Start () {
         spawnDelay = 5.0f;

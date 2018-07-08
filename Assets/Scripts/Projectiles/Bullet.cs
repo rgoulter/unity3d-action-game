@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour {
-    float lifetime = 3.0f;
+    public float lifetime = 3.0f;
 
-    float shootSpeed = 20f;
+    public float shootSpeed = 20f;
     public float damageAmount = 5f;
 
-    Texture2D rocketTex;
+    public Texture2D rocketTex;
 
     void Start () {
         GetComponent<Rigidbody>().velocity = transform.forward * shootSpeed;

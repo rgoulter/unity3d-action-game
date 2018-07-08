@@ -6,8 +6,8 @@ public class PlayerTargetReticule : MonoBehaviour {
     // This is to show some kind of target/reticule on the
     // thing which the player is currently targetting.
 
-    PlayerTargetter targetter;
-    Camera forCamera;
+    public PlayerTargetter targetter;
+    public Camera forCamera;
 
     void Start () {
         // The targetter must be set externally.

@@ -6,7 +6,7 @@ public class TeamPlayer : MonoBehaviour {
     // 0 == blue,
     // 1 == red
     public int team = 0;
-    Vector3 relAimAtPoint = new Vector3(0, 1, 0);
+    public Vector3 relAimAtPoint = new Vector3(0, 1, 0);
 
     public float health = 100;
     public int pointsValue;

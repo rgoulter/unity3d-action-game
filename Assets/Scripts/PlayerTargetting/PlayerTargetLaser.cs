@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerTargetLaser : MonoBehaviour {
-    PlayerTargetter targetter;
+    public PlayerTargetter targetter;
 
     void Start () {
         // Targetting laser will belong to a 'sibling' object

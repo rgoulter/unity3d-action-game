@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerUI : MonoBehaviour {
-    Texture2D mgIcon;
-    BulletShooter mgShooter;
-    Texture2D rktIcon;
-    BulletShooter rktShooter;
+    public Texture2D mgIcon;
+    public BulletShooter mgShooter;
+    public Texture2D rktIcon;
+    public BulletShooter rktShooter;
 
-    Rect normalizedGuiRect;
+    public Rect normalizedGuiRect;
 
     private Texture2D healthBgTex;
     private Texture2D healthFgTex;

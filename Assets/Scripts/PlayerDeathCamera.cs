@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerDeathCamera : MonoBehaviour {
-    PlayerRespawner respawner;
+    public PlayerRespawner respawner;
 
     void Start () {
+        // TIDYME: 2018-07-08: Use property, rather than GetComponent
         respawner = GetComponent<CameraFollowPlayer>().followObj.GetComponent<PlayerRespawner>();
 
         if (respawner == null) {

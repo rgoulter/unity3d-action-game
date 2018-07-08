@@ -7,8 +7,8 @@ public class HitscanBullet : MonoBehaviour {
     // to do damage, this will just hitscan to the
     // target.
 
-    float maxRange = 60f; // Roughly what the mgBullet has by default.
-    float damageAmount = 5f;
+    public float maxRange = 60f; // Roughly what the mgBullet has by default.
+    public float damageAmount = 5f;
 
     void Start () {
         // Raycast for our target

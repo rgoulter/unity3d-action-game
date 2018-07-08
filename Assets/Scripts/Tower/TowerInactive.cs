@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TowerInactive : MonoBehaviour {
-    Texture blueTex;
-    Texture redTex;
+    public Texture blueTex;
+    public Texture redTex;
 
-    Texture2D towerGreyMMIcon;
+    public Texture2D towerGreyMMIcon;
 
     private int replacedByTeam = -1;
 

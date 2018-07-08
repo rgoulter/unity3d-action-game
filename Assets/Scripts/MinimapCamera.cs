@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MinimapCamera : MonoBehaviour {
-    Transform followPt;
-    int height;
+    public Transform followPt;
+    public int height;
 
     void Start () {
         // We need to ensure a minimap icon is created for the objects which

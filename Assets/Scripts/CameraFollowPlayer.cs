@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour {
     public GameObject followObj;
-    float cameraDistance = 3;
+    public float cameraDistance = 3;
 
     private float currentRotation = 0;
 
