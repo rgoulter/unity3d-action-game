@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+set -e
+
 # from http://unity3d.com/get-unity/download/archive
 BASE_URL="https://netstorage.unity3d.com/unity"
 HASH="4cb482063d12"
@@ -27,8 +29,6 @@ install() {
 # https://unity3d.com/unity/whats-new/unity-2018.1.0
 
 install "MacEditorInstaller/Unity-$VERSION.pkg"
-install "MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-$VERSION.pkg"
-install "MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-$VERSION.pkg"
 install "MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-$VERSION.pkg"
 install "MacEditorTargetInstaller/UnitySetup-Linux-Support-for-Editor-$VERSION.pkg"
 install "MacEditorTargetInstaller/UnitySetup-WebGL-Support-for-Editor-$VERSION.pkg"

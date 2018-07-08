@@ -9,6 +9,7 @@ UNITY_BIN="/Applications/Unity/Unity.app/Contents/MacOS/Unity"
 
 echo "Attempting to build $PROJECT_NAME for Windows"
 "$UNITY_BIN" \
+  -force-free \
   -batchmode \
   -nographics \
   -silent-crashes \
@@ -22,6 +23,7 @@ cat $(pwd)/unity-windows.log
 
 echo "Attempting to build $PROJECT_NAME for OS X"
 "$UNITY_BIN" \
+  -force-free \
   -batchmode \
   -nographics \
   -silent-crashes \
@@ -35,6 +37,7 @@ cat $(pwd)/unity-osx.log
 
 echo "Attempting to build $PROJECT_NAME for Linux"
 "$UNITY_BIN" \
+  -force-free \
   -batchmode \
   -nographics \
   -silent-crashes \
