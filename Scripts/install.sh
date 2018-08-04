@@ -4,8 +4,8 @@ set -e
 
 # from http://unity3d.com/get-unity/download/archive
 BASE_URL="https://netstorage.unity3d.com/unity"
-HASH="4cb482063d12"
-VERSION="2018.1.7f1"
+HASH="fc1d3344e6ea"
+VERSION="2017.3.1f1"
 
 download() {
   file=$1
@@ -27,10 +27,12 @@ install() {
 # of available packages, where PLATFORM is `osx` or `win`
 
 # https://unity3d.com/unity/whats-new/unity-2018.1.0
+# https://unity3d.com/unity/whats-new/unity-2017.3.0
 
 install "MacEditorInstaller/Unity-$VERSION.pkg"
-install "MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-$VERSION.pkg"
+# install "MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-$VERSION.pkg"
+install "MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-$VERSION.pkg"
 install "MacEditorTargetInstaller/UnitySetup-Linux-Support-for-Editor-$VERSION.pkg"
 install "MacEditorTargetInstaller/UnitySetup-WebGL-Support-for-Editor-$VERSION.pkg"
 install "MacStandardAssetsInstaller/StandardAssets-$VERSION.pkg"
-install "MacEditorTargetInstaller/UnitySetup-Mac-IL2CPP-Support-for-Editor-$VERSION.pkg"
+# install "MacEditorTargetInstaller/UnitySetup-Mac-IL2CPP-Support-for-Editor-$VERSION.pkg"
