@@ -2,6 +2,7 @@
     "name": "Tests",
     "references": [],
     "includePlatforms": [
+        "Editor",
         "WebGL"
     ],
     "excludePlatforms": []
